@@ -1,0 +1,15 @@
+/*Variables tema*/
+@import "../../theme";
+
+/*	-------------------------------------------	*\ 
+/*	Estilos del webcomponent que se pasan posteriormente
+/*  al archivo de estilos general
+/*	-------------------------------------------	*/
+
+/*Etiqueta del elemento para enmascarar los estilos al webcomponent*/
+.wc-minambiente-map {
+  .map_container {
+    height: 200px;
+    width: 100%;
+  }
+}

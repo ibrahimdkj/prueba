@@ -1,0 +1,23 @@
+/*Variables tema*/
+@import "../../theme";
+
+/*	-------------------------------------------	*\ 
+/*	Estilos del webcomponent que se pasan posteriormente
+/*  al archivo de estilos general
+/*	-------------------------------------------	*/
+
+/*Etiqueta del elemento para enmascarar los estilos al webcomponent*/
+.wc-minambiente-header {
+  width: 100%;
+  padding: 20px;
+  background: $color-primary;
+
+  /* Usar metodología BEM para definición de estilos */
+  .logo {
+    display: flex;
+    justify-content: flex-end;
+    &__enlace {
+      color: $color-white;
+    }
+  }
+}
